@@ -1,0 +1,43 @@
+body{
+  background-image: linear-gradient(to top, #a8edea 0%, #fed6e3 100%);
+  background-repeat: no-repeat;
+  height: 550px;
+}
+h1{
+  text-align: center;
+  color: rgba(0, 0, 0, .5);
+}
+.Container{
+  margin-top: 100px;
+}
+.todolist{
+  text-align: center;
+  margin-bottom: 20px;
+}
+.todolist> input{
+  padding: 5px 10px;
+  text-transform: capitalize;
+  font-weight: bold;
+}
+.todolist > button{
+  margin-left: 10px;
+  padding: 5px 10px;
+}
+.allfun{
+  text-align: center;
+}
+.allfun > button{
+  margin: 0px 10px;
+  padding: 5px 10px;
+}
+.allfun> input{
+  padding: 5px 10px;
+  font-weight: bold;
+}
+ul{
+  text-align: center;
+  list-style: none;
+}
+.submit>button{
+  margin:0px 5px;
+}
